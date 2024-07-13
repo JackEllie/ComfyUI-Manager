@@ -208,6 +208,46 @@
             "title_aux": "ComfyUI-DareMerge"
         }
     ],
+    "https://github.com/807502278/ComfyUI-3D-MeshTool": [
+        [
+            "Auto_Normal",
+            "Load_OBJ",
+            "Mesh_Clean_Data",
+            "Mesh_Cleanup",
+            "Mesh_Data",
+            "Mesh_Data_Statistics",
+            "Mesh_Optimization",
+            "Mesh_Subdivide",
+            "UV_options",
+            "UnwrapUV_Auto_xatlas",
+            "UnwrapUV_xatlas",
+            "array-append",
+            "array-attribute",
+            "array-convert",
+            "array-end-increment",
+            "array-end-step",
+            "array-is-null",
+            "array-number-to-angle",
+            "array-select-element",
+            "array-step",
+            "array-step-increment",
+            "array-t",
+            "array-to-camposes",
+            "cam-pos-bus",
+            "mesh_data_bus",
+            "mesh_remap_cubvh",
+            "show_any",
+            "string-to-array",
+            "vc_to_texture"
+        ],
+        {
+            "author": "807502278",
+            "description": "A simple 3D model processing tool within ComfyUI",
+            "nickname": "3D Mesh Tool",
+            "title": "3D Mesh Tool",
+            "title_aux": "ComfyUI-3D-MeshTool"
+        }
+    ],
     "https://github.com/80sVectorz/ComfyUI-Static-Primitives": [
         [
             "FloatStaticPrimitive",
@@ -563,6 +603,14 @@
         ],
         {
             "title_aux": "ComfyUI_yanc"
+        }
+    ],
+    "https://github.com/APZmedia/ComfyUI-APZmedia-cleanName-from-string": [
+        [
+            "CleanFileNameNode"
+        ],
+        {
+            "title_aux": "APZmedia Clean File Name Node"
         }
     ],
     "https://github.com/AbdullahAlfaraj/Comfy-Photoshop-SD": [
@@ -2508,6 +2556,19 @@
             "title_aux": "JPS Custom Nodes for ComfyUI"
         }
     ],
+    "https://github.com/JackEllie/ComfyUI_AI_Assistant": [
+        [
+            "apply_lighting_effects",
+            "clean_prompt_tags",
+            "noline_process",
+            "prompt_blacklist",
+            "prompt_sorting",
+            "resize_image_sdxl_ratio"
+        ],
+        {
+            "title_aux": "ComfyUI-AI-Assistant"
+        }
+    ],
     "https://github.com/Jannchie/ComfyUI-J": [
         [
             "DiffusersCompelPromptEmbedding",
@@ -2867,6 +2928,9 @@
             "VHS_SelectEveryNthImage",
             "VHS_SelectEveryNthLatent",
             "VHS_SelectEveryNthMask",
+            "VHS_SelectImages",
+            "VHS_SelectLatents",
+            "VHS_SelectMasks",
             "VHS_SplitImages",
             "VHS_SplitLatents",
             "VHS_SplitMasks",
@@ -3156,8 +3220,12 @@
             "MaraScottUpscalerRefinerNode_v3",
             "MaraScott_Kijai_TokenCounter_v1",
             "McBoaty_Refiner_v4",
+            "McBoaty_Refiner_v5",
             "McBoaty_TilePrompter_v4",
-            "McBoaty_Upscaler_v4"
+            "McBoaty_TilePrompter_v5",
+            "McBoaty_Upscaler_v4",
+            "McBoaty_Upscaler_v5",
+            "UpscalerRefiner_McBoaty_v5"
         ],
         {
             "title_aux": "\ud83d\udc30 MaraScott Nodes"
@@ -3352,6 +3420,22 @@
         ],
         {
             "title_aux": "ComfyUI-TextOverlay"
+        }
+    ],
+    "https://github.com/N3rd00d/ComfyUI-Paint3D-Nodes": [
+        [
+            "3D_GenerateDepthImage",
+            "3D_GenerateInpaintMask",
+            "3D_GenerateInpaintUVMapMask",
+            "3D_GeneratePreviewVideo",
+            "3D_LoadMeshModel",
+            "3D_Projection",
+            "3D_SaveUVMapImage",
+            "3D_TrainConfig",
+            "3D_TrainConfigPipe"
+        ],
+        {
+            "title_aux": "ComfyUI-Paint3D-Nodes"
         }
     ],
     "https://github.com/NeuralSamurAI/Comfyui-Superprompt-Unofficial": [
@@ -8071,6 +8155,7 @@
             "ModelMergeSDXL",
             "ModelMergeSimple",
             "ModelMergeSubtract",
+            "ModelSamplingAuraFlow",
             "ModelSamplingContinuousEDM",
             "ModelSamplingContinuousV",
             "ModelSamplingDiscrete",
@@ -8973,6 +9058,7 @@
             "Eden_Int",
             "Eden_Lora_Loader",
             "Eden_String",
+            "Eden_gpt4_node",
             "FolderScanner",
             "GetRandomFile",
             "Get_Prefixed_Imgs",
@@ -9087,7 +9173,7 @@
             "title_aux": "ComfyUI-Showrunner-Utils"
         }
     ],
-    "https://github.com/fearnworks/ComfyUI_FearnworksNodes/raw/main/fw_nodes.py": [
+    "https://github.com/fearnworks/ComfyUI_FearnworksNodes": [
         [
             "Count Files in Directory (FW)",
             "Count Tokens (FW)",
@@ -9095,7 +9181,7 @@
             "Trim To Tokens (FW)"
         ],
         {
-            "title_aux": "Fearnworks Custom Nodes"
+            "title_aux": "Fearnworks Nodes"
         }
     ],
     "https://github.com/fexli/fexli-util-node-comfyui": [
@@ -9869,18 +9955,21 @@
             "Griptape Agent Config: LM Studio",
             "Griptape Agent Config: Ollama",
             "Griptape Agent Config: OpenAI",
+            "Griptape Agent Config: OpenAI Compatible",
             "Griptape Audio Driver: OpenAI",
             "Griptape Combine: Merge Inputs",
             "Griptape Combine: Merge Texts",
             "Griptape Combine: Rules List",
             "Griptape Combine: Tool List",
             "Griptape Config: Environment Variables",
+            "Griptape Convert: Agent to Tool",
             "Griptape Convert: Text to CLIP Encode",
             "Griptape Convert: Text to Combo",
             "Griptape Create: Agent",
             "Griptape Create: CLIP Text Encode",
             "Griptape Create: Image Variation",
             "Griptape Create: Image from Text",
+            "Griptape Create: Pipeline",
             "Griptape Create: Rules",
             "Griptape Create: Text",
             "Griptape Display: Artifact",
@@ -9896,11 +9985,14 @@
             "Griptape Expand: Agent Nodes",
             "Griptape Load: Audio",
             "Griptape Load: Image From URL",
+            "Griptape Pipeline: Add Task",
+            "Griptape Pipeline: Insert Task",
             "Griptape Run: Agent",
             "Griptape Run: Audio Transcription",
             "Griptape Run: Image Description",
             "Griptape Run: Parallel Image Description",
             "Griptape Run: Prompt Task",
+            "Griptape Run: Structure",
             "Griptape Run: Text Summary",
             "Griptape Run: Tool Task",
             "Griptape Run: Toolkit Task",
@@ -12588,9 +12680,14 @@
     ],
     "https://github.com/mattjohnpowell/comfyui-lmstudio-image-to-text-node": [
         [
-            "LM Studio Image To Text"
+            "LM Studio Image To Text",
+            "LM Studio Text Generation"
         ],
         {
+            "author": "Matt John Powell",
+            "description": "This extension provides two custom nodes for ComfyUI that integrate LM Studio's capabilities:",
+            "nickname": "LM Studio Nodes",
+            "title": "LM Studio Nodes for ComfyUI",
             "title_aux": "LM Studio Image to Text Node for ComfyUI"
         }
     ],
@@ -14536,6 +14633,26 @@
             "title_aux": "ComfyUI_Streamv2v_Plus"
         }
     ],
+    "https://github.com/sn0w12/ComfyUI-Sn0w-Scripts": [
+        [
+            "Character Selector",
+            "Copy/Paste Textbox",
+            "Filter Tags",
+            "Get Font Size",
+            "Load Lora Folder",
+            "Load Lora Sn0w",
+            "Lora Selector",
+            "Lora Tester",
+            "Prompt Combine",
+            "Prompt Selector",
+            "Sn0w KSampler",
+            "Sn0w Lora Stacker",
+            "Upscale Image With Model By"
+        ],
+        {
+            "title_aux": "ComfyUI-Sn0w-Scripts"
+        }
+    ],
     "https://github.com/space-nuko/ComfyUI-Disco-Diffusion": [
         [
             "DiscoDiffusion_DiscoDiffusion",
@@ -15126,7 +15243,10 @@
     "https://github.com/tritant/ComfyUI_CreaPrompt": [
         [
             "CreaPrompt",
-            "CreaPrompt List"
+            "CreaPrompt List",
+            "CreaPrompt_1",
+            "CreaPrompt_2",
+            "CreaPrompt_3"
         ],
         {
             "title_aux": "ComfyUI-CreaPrompt"
